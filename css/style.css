@@ -400,6 +400,7 @@ to{
 
 #clienti{
   background-color: rgba(35, 45, 158, 0.822);
+  padding-bottom: 7%;
 }
 
 #clienti h1{
@@ -416,11 +417,11 @@ to{
 
 .descrizioneClienti{
   text-align: left;
-  font-weight: 700;
   margin: 0% 4%;
   padding-bottom: 3%;
   z-index: 1010;
-  font-size: 1.2rem;; 
+  font-size: 1.2rem;
+  color: #fff;
 }
 
 #contattaci{
@@ -439,8 +440,50 @@ to{
   }
 }
 
-.formContainer{
-  width: 65%;
-  margin: 0% 3.5%;
+.formContainer {
+  width: 100%;
+  margin: 2% 3.5%;
   padding-bottom: 7%;
+  padding-left: 4.3%;
 }
+
+@media screen and (max-width:754px)
+{
+  .formContainer{
+    padding: 1%;
+
+  }
+}
+
+.sendBtn{
+  margin-top: 3%;
+}
+
+#bulb:active{
+  
+  animation-name: bulbLight;
+  animation-duration: .5s;
+  animation-fill-mode: forwards;
+
+}
+
+@keyframes bulbLight {
+
+  from{
+
+  }
+  to{
+    filter:hue-rotate(240deg) brightness(1.5);
+  }
+}
+
+.mailImg{
+  filter: grayscale() brightness(1.2);
+}
+
+@media (max-width: 754px){
+.displayMail{
+  display: none;
+}
+}
+

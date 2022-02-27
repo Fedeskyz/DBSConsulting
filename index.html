@@ -20,7 +20,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
     rel="stylesheet">
   <!--AOS animated image-->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <!--SplideDirectory-->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/css/splide.min.css">
@@ -32,13 +34,14 @@
 
   <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/js/splide.min.js"></script>
 
-  <!--autoscroll-->
-  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.3.7/dist/js/splide-extension-auto-scroll.min.js"></script>
-  <script>
-  import { Splide } from '@splidejs/splide';
-  import { AutoScroll } from '@splidejs/splide-extension-auto-scroll';
-  new Splide( '.splide' ).mount( { AutoScroll } );</script>
-
+  <!--SplideAutoscroll-->
+  <script
+    src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.3.7/dist/js/splide-extension-auto-scroll.min.js">
+  
+  new Splide('.splide').mount({
+      AutoScroll
+    });
+  </script>
 
   <title>DBS Consulting</title>
 
@@ -103,27 +106,31 @@
   <section id="digitalEra" data-aos="fade-up" data-aos-offset="300">
     <div class="digitalEra">
       <div>
-        <h1 data-aos="flip-up" data-aos-offset="300" data-aos-duration="300" > ˂ <span class="afterDigitale"></span> ˃
+        <h1 data-aos="flip-up" data-aos-offset="300" data-aos-duration="300"> ˂ <span class="afterDigitale"></span> ˃
         </h1>
       </div>
-      
-    <div class="container-fluid ">
-      <div class="row ">
-        <div class="col-md-6 idea text-center">
-          <img src="./images/idea.png" alt="" height="300px ">
-        </div>
-        <div class="col-md-6">
-          <h2>💡 Raccontaci la tua idea.</h2>
-          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, quo, odit quod veritatis molestias dolorum repudiandae mollitia expedita non deserunt id totam tempore numquam, esse rerum quam nulla temporibus architecto! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque eos numquam nulla qui cupiditate iure optio quisquam repellendus aperiam ullam. Culpa ab quia repellendus nostrum dolorum eveniet blanditiis temporibus ratione.</p>
-        
-          <button type="button" class="btn btn-outline-primary btnidea ">Contattaci!</button> 
+
+      <div class="container-fluid ">
+        <div class="row">
+          <div class="col-md-6 idea text-center align-item-center">
+            <img id="bulb" src="./images/idea.png" alt="" height="250px ">
+          </div>
+          <div class="col-md-6 m-auto p-4">
+            <h2>Raccontaci la tua idea.</h2>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, quo, odit quod veritatis molestias
+              dolorum repudiandae mollitia expedita non deserunt id totam tempore numquam, esse rerum quam nulla
+              temporibus architecto! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque eos numquam nulla
+              qui cupiditate iure optio quisquam repellendus aperiam ullam. Culpa ab quia repellendus nostrum dolorum
+              eveniet blanditiis temporibus ratione.</p>
+
+            <button type="button" class="btn btn-outline-primary btnidea ">Contattaci!</button>
+          </div>
         </div>
       </div>
-    </div>
-      
-      
-      
-      
+
+
+
+
       <!--<div class="container-fluid">
         <div class="row align-item-center text-center mb-0">
           <div class="col-md-4 columnEra" data-aos="fade-up" data-aos-offset="200" data-aos-duration="300">
@@ -163,138 +170,144 @@
     </div>-->
   </section>
 
- <!--La Nostra Azienda-->
+  <!--La Nostra Azienda-->
   <section id="chiSiamo" data-aos="fade-up">
     <div class="chiSiamo">
       <h1 data-aos="flip-up" data-aos-duration="300">˂ <span class="chiSiamoTitle"></span> ˃</h1>
     </div>
     <div class="container-fluid m-0">
       <p class="descrizioneAzienda" data-aos="fade-up" data-aos-duration="100">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur pariatur quis, iusto ab illum ipsam quas. Enim, dolor nobis! Quod delectus laboriosam eum, ab sapiente consequatur iusto ratione et fuga.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur pariatur quis, iusto ab illum ipsam quas. Enim,
+        dolor nobis! Quod delectus laboriosam eum, ab sapiente consequatur iusto ratione et fuga.
       </p>
     </div>
-    
 
-   <div class="row m-auto" data-aos="fade-up" data-aos-duration="100">
-     <div class="col-lg-3 col-6">
-      <div class="card card2">
-       <img src="./images/app-development.png" class="imgIconAzienda card-img-top" alt="" style="filter: invert(1);">
-       <div class="card-body">
-         <p class="textCardAzienda card-text"> Lorem Ipsum
-         </p>
-       </div>
-      </div>
-    </div>
-     <div class="col-lg-3 col-6">
-       <div class="card card2">
-        <img src="./images/mission.png" class="imgIconAzienda card-img-top" alt="" style="filter: invert(1);">
-        <div class="card-body">
-          <p class="textCardAzienda card-text"> Lorem Ipsum
-          </p>
+
+    <div class="row m-auto" data-aos="fade-up" data-aos-duration="100">
+      <div class="col-lg-3 col-6">
+        <div class="card card2">
+          <img src="./images/app-development.png" class="imgIconAzienda card-img-top" alt="" style="filter: invert(1);">
+          <div class="card-body">
+            <p class="textCardAzienda card-text"> Lorem Ipsum
+            </p>
+          </div>
         </div>
-       </div>
-     </div>
-    <div class="col-lg-3 col-6">
-      <div class="card card2">
-       <img src="./images/start-up.png" class="imgIconAzienda card-img-top" alt="" style="filter: invert(1);">
-       <div class="card-body">
-         <p class="textCardAzienda card-text"> Lorem Ipsum
-         </p>
-       </div>
+      </div>
+      <div class="col-lg-3 col-6">
+        <div class="card card2">
+          <img src="./images/mission.png" class="imgIconAzienda card-img-top" alt="" style="filter: invert(1);">
+          <div class="card-body">
+            <p class="textCardAzienda card-text"> Lorem Ipsum
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-6">
+        <div class="card card2">
+          <img src="./images/start-up.png" class="imgIconAzienda card-img-top" alt="" style="filter: invert(1);">
+          <div class="card-body">
+            <p class="textCardAzienda card-text"> Lorem Ipsum
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-6">
+        <div class="card card2">
+          <img src="./images/motivation.png" class="imgIconAzienda card-img-top" alt="" style="filter: invert(1);">
+          <div class="card-body">
+            <p class="textCardAzienda card-text"> Lorem Ipsum
+            </p>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="col-lg-3 col-6">
-      <div class="card card2">
-       <img src="./images/motivation.png"  class="imgIconAzienda card-img-top" alt="" style="filter: invert(1);">
-       <div class="card-body">
-         <p class="textCardAzienda card-text"> Lorem Ipsum
-         </p>
-       </div>
-      </div>
-    </div>
-   </div>
 
   </section>
 
-  <section id="Progetti" data-aos="fade-up" >
+  <section id="Progetti" data-aos="fade-up">
     <div data-aos-duration="100">
       <h1 data-aos="flip-up" data-aos-duration="300"> ˂ <span class="Progetti"></span> ˃
       </h1>
 
-    
 
-</div>
-<div>
-  <p class="descrizioneProgetti" data-aos="fade-up" data-aos-duration="100">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla voluptatem quo aut consequatur odio voluptates minima. Recusandae nesciunt dicta laborum vitae vel, dolores accusantium voluptatum nobis dignissimos commodi eveniet architecto.</p>
-</div>
+
+    </div>
+    <div>
+      <p class="descrizioneProgetti" data-aos="fade-up" data-aos-duration="100">Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Nulla voluptatem quo aut consequatur odio voluptates minima. Recusandae nesciunt dicta laborum
+        vitae vel, dolores accusantium voluptatum nobis dignissimos commodi eveniet architecto.</p>
+    </div>
 
 
     <div class="row m-auto">
       <div class="col-md-3 col-6">
         <div class="card card2" data-aos="fade-up" data-aos-duration="100">
-         <img src="./images/person.png" class="imgIconProgetti card-img-top" alt="">
-         <div class="card-body">
-           <p class="textCardProgetti card-text"> Freelancer
-           </p>
-         </div>
+          <img src="./images/person.png" class="imgIconProgetti card-img-top" alt="">
+          <div class="card-body">
+            <p class="textCardProgetti card-text"> Freelancer
+            </p>
+          </div>
         </div>
       </div>
-      <div class="col-md-3 col-6">
-       <div class="card card2" data-aos="fade-up" data-aos-duration="100">
-        <img src="./images/home.png" class="imgIconProgetti card-img-top" alt="">
-        <div class="card-body">
-          <p class="textCardProgetti card-text"> Startups
-          </p>
-        </div>
-       </div>
-     </div>
       <div class="col-md-3 col-6">
         <div class="card card2" data-aos="fade-up" data-aos-duration="100">
-         <img src="./images/2552536.png" class="imgIconProgetti card-img-top" alt="">
-         <div class="card-body">
-           <p class="textCardProgetti card-text"> Piccole-Medie <br> Imprese
-           </p>
-         </div>
+          <img src="./images/home.png" class="imgIconProgetti card-img-top" alt="">
+          <div class="card-body">
+            <p class="textCardProgetti card-text"> Startups
+            </p>
+          </div>
         </div>
       </div>
-     <div class="col-md-3 col-6">
-       <div class="card card2" data-aos="fade-up" data-aos-duration="100">
-        <img src="./images/building.png" class="imgIconProgetti card-img-top" alt="">
-        <div class="card-body">
-          <p class="textCardProgetti card-text"> Multinazionali
-          </p>
+      <div class="col-md-3 col-6">
+        <div class="card card2" data-aos="fade-up" data-aos-duration="100">
+          <img src="./images/2552536.png" class="imgIconProgetti card-img-top" alt="">
+          <div class="card-body">
+            <p class="textCardProgetti card-text"> Piccole-Medie <br> Imprese
+            </p>
+          </div>
         </div>
-       </div>
-     </div>
+      </div>
+      <div class="col-md-3 col-6">
+        <div class="card card2" data-aos="fade-up" data-aos-duration="100">
+          <img src="./images/building.png" class="imgIconProgetti card-img-top" alt="">
+          <div class="card-body">
+            <p class="textCardProgetti card-text"> Multinazionali
+            </p>
+          </div>
+        </div>
+      </div>
 
     </div>
   </section>
 
   <section id="clienti" data-aos="fade-up">
-        <h1 data-aos="flip-up" data-aos-duration="300">˂ <span class="clientiTitle"></span> ˃</h1>
-      </div>
-      <div class="container-fluid m-0">
-        <p class="descrizioneClienti" data-aos="fade-up" data-aos-duration="100">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur pariatur quis, iusto ab illum ipsam quas. Enim, dolor nobis! Quod delectus laboriosam eum, ab sapiente consequatur iusto ratione et fuga.
-        </p>
-      </div>
+    <h1 data-aos="flip-up" data-aos-duration="300">˂ <span class="clientiTitle"></span> ˃</h1>
+    </div>
+    <div class="container-fluid m-0">
+      <p class="descrizioneClienti" data-aos="fade-up" data-aos-duration="100">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur pariatur quis, iusto ab illum ipsam quas. Enim,
+        dolor nobis! Quod delectus laboriosam eum, ab sapiente consequatur iusto ratione et fuga.
+      </p>
+    </div>
 
-      <!--SplideCarousel-->
+    <!--SplideCarousel-->
     <div class="container-fluid carousel p-0" data-aos="fade-up" data-aos-duration="100">
       <div class="splide m-auto">
-        <div class="splide__track w-100" >
+        <div class="splide__track w-100">
           <ul class="splide__list">
             <li class="splide__slide">
               <div class="h-100">
                 <div class="d-flex w-100 h-100 align-item-center ">
-                  <img class="w-100" src="./client_images/friulintaglilogo.webp" alt="" style="background-color: white; border-radius: 100%;">
+                  <img class="w-100" src="./client_images/friulintaglilogo.webp" alt=""
+                    style="background-color: white; border-radius: 100%;">
                 </div>
               </div>
             </li>
             <li class="splide__slide">
               <div class="h-100">
                 <div class="d-flex w-100 h-100 align-item-center ">
-                  <img class="w-100" src="./client_images/21366958_1101228543344210_4891276532921051383_o.jpg" alt="" style="border-radius: 100%;">
+                  <img class="w-100" src="./client_images/21366958_1101228543344210_4891276532921051383_o.jpg" alt=""
+                    style="border-radius: 100%;">
                 </div>
               </div>
             </li>
@@ -308,18 +321,20 @@
             <li class="splide__slide">
               <div class="h-100">
                 <div class="d-flex w-100 h-100 align-item-center ">
-                  <img class="w-100" src="./client_images/webngo.png" alt="" style="background-color: white; border-radius: 100%;">
+                  <img class="w-100" src="./client_images/webngo.png" alt=""
+                    style="background-color: white; border-radius: 100%;">
                 </div>
               </div>
             </li>
             <li class="splide__slide ">
               <div class="h-100">
                 <div class="d-flex w-100 h-100 align-item-center ">
-                  <img class="w-100" src="./client_images/173123900_3859850334064838_5143019913008879272_n.png" alt="" style="border-radius: 100%;">
+                  <img class="w-100" src="./client_images/173123900_3859850334064838_5143019913008879272_n.png" alt=""
+                    style="border-radius: 100%;">
                 </div>
               </div>
             </li>
-        <!--   <li class="splide__slide ">
+            <!--   <li class="splide__slide ">
               <div class="h-100">
                 <div class="d-flex w-100 h-100 align-item-center">
                   <img class="w-100" src="./Carousel image/vuejs.png" alt="">
@@ -335,75 +350,94 @@
       document.addEventListener('DOMContentLoaded', function () {
         var splide = new Splide('.splide', {
           type: 'loop',
-          fixedWidth:"170px",
-          fixedWHeight:"170px",
+          fixedWidth: "170px",
+          fixedWHeight: "170px",
           perMove: 1,
           gap: '2em',
           arrows: false,
           pagination: false,
           drag: false,
-          autoScroll:{
-          pauseOnHover: false,
-          pauseOnFocus: false,
+          autoScroll: {
+            pauseOnHover: false,
+            pauseOnFocus: false,
           }
 
         });
 
-        splide.mount(window.splide.Extensions );
+        splide.mount(window.splide.Extensions);
       })
-    </script> 
+    </script>
 
 
 
   </section>
-
 
   <section id="contattaci" data-aos="fade-up">
+    <div class="container-fluid ">
     <h1 data-aos="flip-up" data-aos-duration="100">˂ <span class="contattaciTitle"></span> ˃</h1>
-    <div class="formContainer" data-aos="fade-up">
-   
-    
-    <div class="form-group" >
-      <div class="form-group">
-        <label for="formGroupExampleInput">Ciao! 👋 Come ti chiami?</label>
-        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Ugo Fantozzi">
+    <div class="row w-100">
+      <div class="col-md-6">
+        <div class="formContainer" data-aos="fade-up">
+          <div class="form-group">
+            <div class="form-group">
+              <label for="formGroupExampleInput">Ciao! 👋 Come ti chiami?</label>
+              <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Ugo Fantozzi">
+            </div>
+            <label for="exampleFormControlInput1">Hai un e-mail? No spam, promesso! 🤞</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="ragionier@fantozzi.com">
+          </div>
+          <label for="exampleFormControlTextarea1">Raccontaci la tua 💡 Idea:</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+            placeholder="C'era una volta..."></textarea>
+          <button class=" btn btn-outline-primary sendBtn"> Invia!</button>
+        </div>
       </div>
-      <label for="exampleFormControlInput1">Qual'è la tua Email? No spam, promesso! 🤞</label>
-      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="ragionier@fantozzi.com">
+      <div class="col-md-6 text-center m-auto displayMail">
+        <img class="mailImg" src="./images/message-svgrepo-com.svg" alt="mail-image" height="300px">
+      </div>
     </div>
-      <label for="exampleFormControlTextarea1">Raccontaci la tua 💡 Idea:</label>
-      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="C'era una volta..."></textarea>
-    </div>
-    </div>
+  </div>
 
   </section>
 
-  
 
-      <!--CEO-->
 
-      
-      <div class="container-fluid ">
-        <div class="row CEO  align-item-center text-center">
-          <div class="col-md-4 m-auto imageContainer">
-           
+  <!--CEO-->
+
+  <section id="ceo">
+    <div class="container-fluid ">
+      <div class="row CEO  align-item-center text-center">
+        <div class="col-md-4 m-auto imageContainer">
+
           <!--<img class="imagebgCEO" src="./images/dario-battistella-ceo-dbs-consulting-mobile-600x686.jpg" alt="DarioBattistella" > -->
-            
-          </div>
-          <div class="col-md-8 col p-0 m-auto">
-            <h2 class="titoloCeo">CEO - Dario Battistella</h2>
-            <p class="descrizioneCeo">“Il nostro compito alla DBS Consulting è da sempre analizzare la concreta realtà, costruita da un valido imprenditore e dal suo team, per trasformarla ed implementarla in un’altrettanto valida realtà digitale, consentendo una maggiore efficienza ed efficacia adeguate al nostro oggi”.</p>
-          </div>
+
+        </div>
+        <div class="col-md-8 col p-0 m-auto">
+          <h2 class="titoloCeo">CEO - Dario Battistella</h2>
+          <p class="descrizioneCeo">“Il nostro compito alla DBS Consulting è da sempre analizzare la concreta realtà,
+            costruita da un valido imprenditore e dal suo team, per trasformarla ed implementarla in un’altrettanto
+            valida realtà digitale, consentendo una maggiore efficienza ed efficacia adeguate al nostro oggi”.</p>
         </div>
       </div>
-      
+    </div>
+  </section>
+
+  <!--footer-->
+
+  <section id="footer">
+    <div>
+ 
+    </div>
+  </section>
 
   <!--animated text-->
   <script type="text/javascript" src="javascript.js"></script>
 
-  
+
   <!--AOS JS-->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+    integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script>
     AOS.init({
 

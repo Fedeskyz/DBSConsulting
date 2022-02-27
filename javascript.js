@@ -1,6 +1,5 @@
 
 
-
 //typo
 
 function setupTypewriter(t) {
@@ -130,7 +129,7 @@ class TextScramble {
     randomChar() {
       return this.chars[Math.floor(Math.random() * this.chars.length)]
     }
-  }
+  };
   
   // ——————————————————————————————————————————————————
   // Text
@@ -154,7 +153,7 @@ class TextScramble {
     counter = (counter + 1) % phrases.length
   }
   
-  next()
+  next();
 
   // ——————————————————————————————————————————————————
   // Text 2
@@ -178,7 +177,7 @@ class TextScramble {
       counter1 = (counter1 + 1) % phrases1.length
     }
     
-    next1()
+    next1();
 
     
 
@@ -204,7 +203,7 @@ class TextScramble {
       counter2 = (counter2 + 1) % phrases2.length
     }
     
-    next2()
+    next2();
 
   // ——————————————————————————————————————————————————
   // Text 4
@@ -228,7 +227,7 @@ class TextScramble {
       counter3 = (counter3 + 1) % phrases3.length
     }
     
-    next3()
+    next3();
     
   // ——————————————————————————————————————————————————
   // Text 4
@@ -252,6 +251,9 @@ class TextScramble {
       counter4 = (counter4 + 1) % phrases4.length
     }
     
-    next4()
+    next4();
 
+
+  
+    
 
