@@ -136,8 +136,8 @@ class TextScramble {
   // ——————————————————————————————————————————————————
   
   const phrases = [
-  "La Tua idea",
-  "La Tua idea",
+  "Hai un'idea?",
+  "Hai un'idea?",
   
   
   ]

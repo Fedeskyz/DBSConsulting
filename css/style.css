@@ -159,6 +159,36 @@ html {
  padding: 0% 2.5% 3%;
 }
 
+#bulb:active{
+  
+  animation-name: bulbLight;
+  animation-duration: .5s;
+  animation-fill-mode: forwards;
+
+}
+
+  
+
+@keyframes bulbLight {
+
+  from{
+
+  }
+  to{
+    filter:hue-rotate(240deg) brightness(1.5);
+  }
+}
+
+.mailImg{
+  filter: grayscale() brightness(1.2);
+}
+
+@media (max-width: 754px){
+.displayMail{
+  display: none;
+}
+}
+
 
 
 .btnidea{
@@ -188,6 +218,26 @@ html {
   text-align: left;
   padding: 4% 5%;
 }
+.digitalEra h1:after{
+  content: "_";
+  animation: blink 500ms linear infinite alternate;
+}
+
+
+@-webkit-keyframes blink{
+0%{opacity: 0;}
+100%{opacity: 1;}
+}
+
+@-moz-keyframes blink{
+0%{opacity: 0;}
+100%{opacity: 1;}
+}
+
+@keyframes blink{
+0%{opacity: 0;}
+100%{opacity: 1;}
+}
 
 @media (max-width:600px){
   .digitalEra h1{
@@ -212,14 +262,35 @@ html {
 .chiSiamo h1{
   text-align: left;
   color: #fff;
-  padding: 3% 5%;
+  padding: 4% 5%;
  
 }
 
 @media (max-width:600px){
   .chiSiamo h1{
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
+}
+
+.chiSiamo h1:after{
+  content: "_";
+  animation: blink 500ms linear infinite alternate;
+}
+
+
+@-webkit-keyframes blink{
+0%{opacity: 0;}
+100%{opacity: 1;}
+}
+
+@-moz-keyframes blink{
+0%{opacity: 0;}
+100%{opacity: 1;}
+}
+
+@keyframes blink{
+0%{opacity: 0;}
+100%{opacity: 1;}
 }
 
 
@@ -371,8 +442,29 @@ to{
 
 @media (max-width:600px){
   #Progetti h1{
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
+}
+
+#Progetti h1:after{
+  content: "_";
+  animation: blink 500ms linear infinite alternate;
+}
+
+
+@-webkit-keyframes blink{
+0%{opacity: 0;}
+100%{opacity: 1;}
+}
+
+@-moz-keyframes blink{
+0%{opacity: 0;}
+100%{opacity: 1;}
+}
+
+@keyframes blink{
+0%{opacity: 0;}
+100%{opacity: 1;}
 }
 
 .descrizioneProgetti{
@@ -411,8 +503,29 @@ to{
 
 @media (max-width:600px){
   #clienti h1{
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
+}
+
+#clienti h1:after{
+  content: "_";
+  animation: blink 500ms linear infinite alternate;
+}
+
+
+@-webkit-keyframes blink{
+0%{opacity: 0;}
+100%{opacity: 1;}
+}
+
+@-moz-keyframes blink{
+0%{opacity: 0;}
+100%{opacity: 1;}
+}
+
+@keyframes blink{
+0%{opacity: 0;}
+100%{opacity: 1;}
 }
 
 .descrizioneClienti{
@@ -436,8 +549,29 @@ to{
 
 @media (max-width:600px){
   #contattaci h1{
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
+}
+
+#contattaci h1:after{
+  content: "_";
+  animation: blink 500ms linear infinite alternate;
+}
+
+
+@-webkit-keyframes blink{
+0%{opacity: 0;}
+100%{opacity: 1;}
+}
+
+@-moz-keyframes blink{
+0%{opacity: 0;}
+100%{opacity: 1;}
+}
+
+@keyframes blink{
+0%{opacity: 0;}
+100%{opacity: 1;}
 }
 
 .formContainer {
@@ -459,31 +593,28 @@ to{
   margin-top: 3%;
 }
 
-#bulb:active{
-  
-  animation-name: bulbLight;
-  animation-duration: .5s;
-  animation-fill-mode: forwards;
+#footer{
+  background-color: rgba(255, 255, 255, 0.596);
+  font-weight: 700;
+  padding: 5% 0%;
+  margin-left: 0;
 
 }
 
-@keyframes bulbLight {
-
-  from{
-
-  }
-  to{
-    filter:hue-rotate(240deg) brightness(1.5);
-  }
+.lovelist{
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
-.mailImg{
-  filter: grayscale() brightness(1.2);
+#iconFooter{
+  text-align: center;
 }
 
-@media (max-width: 754px){
-.displayMail{
-  display: none;
-}
+.iconFooter{
+  font-size: 2rem;
+  color: white;
+  padding: 5px;
 }
 
